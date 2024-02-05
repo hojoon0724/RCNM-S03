@@ -1,0 +1,119 @@
+body {
+  color: var(--white);
+}
+
+.event-schedule-container {
+  width: 100%;
+}
+
+.event-schedule {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.event-schedule td:not(.event-season) {
+  vertical-align: top;
+  font-size: 0.8rem;
+  padding: 12px 0px;
+}
+
+.event-season.ss {
+  font-size: 1.6rem;
+  padding: 0px 0px 20px 0px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--red);
+}
+
+.event-season.fw {
+  padding: 80px 0px 20px 0px;
+  font-size: 1.6rem;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--red);
+}
+
+.event-schedule-spacer {
+  padding-top: 0px !important;
+  font-size: 0px !important;
+}
+
+.event-title,
+.event-tbd {
+  font-size: 1rem;
+}
+
+.event-scale {
+  min-width: 12ch;
+  text-align: left;
+}
+
+.event-day {
+  text-align: right;
+}
+
+.event-date {
+  text-align: center;
+  width: 15ch;
+  padding: 0px 12px 0px 12px;
+}
+
+.event-time {
+  text-align: left;
+}
+
+.event-venue {
+  text-align: right;
+  padding-left: auto;
+}
+
+.event-info {
+  display: none;
+}
+
+.event-table-header-row {
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .event-schedule {
+    vertical-align: middle;
+  }
+
+  .event-schedule tr {
+    display: block;
+  }
+
+  .event-schedule td:not(.event-season) {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .event-season {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .event-title {
+    padding-bottom: 0px !important;
+  }
+
+  .event-scale {
+    padding-top: 0px !important;
+  }
+
+  .event-info {
+    padding: 18px 0px 130px 5px !important;
+    color: var(--red);
+  }
+
+  .event-schedule td:not(.event-season):not(.event-tbd)::before {
+    content: attr(data-label);
+    display: flex-end;
+    float: left;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    min-width: 13ch;
+    max-width: 20vw;
+  }
+}

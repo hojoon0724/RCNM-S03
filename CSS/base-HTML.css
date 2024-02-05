@@ -1,0 +1,95 @@
+/* 
+
+
+*/
+
+/*fontSizes*/
+
+@import url('https://use.typekit.net/wow6egv.css');
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0.3em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.7rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+/*siteBasics*/
+
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  font-family: 'Futura PT Book', 'Futura PT Bold', 'Futura PT Bold Oblique', 'Futura PT Book Oblique',
+    'Futura PT Cond Bold', 'Futura PT Cond Bold Oblique', 'Futura PT Cond Book', 'Futura PT Cond Book Oblique',
+    'Futura PT Cond Extra Bold', 'Futura PT Cond Extra Bold Oblique', 'Futura PT Cond Medium',
+    'Futura PT Cond Medium Oblique', 'Futura PT Demi', 'Futura PT Demi Oblique', 'Futura PT Extra Bold',
+    'Futura PT Extra Bold Oblique', 'Futura PT Heavy', 'Futura PT Heavy Oblique', 'Futura PT Light',
+    'Futura PT Light Oblique', 'Futura PT Medium', 'Futura PT Medium Oblique';
+  letter-spacing: 0.2em;
+  color: var(--white);
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: 'futura pt book';
+}
+
+a:link {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:any-link {
+  color: inherit;
+}
+
+/*colorVariables*/
+:root {
+  --white-3: #fffffc;
+  --white-2: #fcf8f0;
+  --white-1: #eee9e2;
+  --white: #e1dbd3;
+  --white1: #d2cdc6;
+  --white2: #c4bfb8;
+  --white3: #b5b2ac;
+
+  --blue-3: #3b60ba;
+  --blue-2: #2d54ac;
+  --blue-1: #20489e;
+  --blue: #0b3d91;
+  --blue1: #003284;
+  --blue2: #002777;
+  --blue3: #001d6a;
+
+  --red-3: #ff6c47;
+  --red-2: #ff5d3a;
+  --red-1: #ff4e2e;
+  --red: #fc3d21;
+  --red1: #e92b15;
+  --red2: #d91207;
+  --red3: #c80000;
+
+  --black-3: #36414f;
+  --black-2: #2b3643;
+  --black-1: #202b38;
+  --black: #101823;
+  --black1: #08101e;
+  --black2: #000918;
+  --black3: #000000;
+}

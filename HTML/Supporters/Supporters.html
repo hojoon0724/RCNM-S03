@@ -1,0 +1,220 @@
+<head>
+  <link rel="stylesheet" href="/css/base-HTML.css" />
+  <link rel="stylesheet" href="/css/style.scss" />
+  <link
+    href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css"
+    type="text/css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://use.typekit.net/wow6egv.css" />
+</head>
+
+<style>
+  body {
+    background-color: var(--white);
+    border-collapse: collapse;
+    margin: 0px;
+    font-family: 'futura-pt';
+    font-weight: 300;
+    color: var(--black);
+  }
+</style>
+
+<style>
+  .founding-members-container {
+    padding-top: 0.5rem;
+    width: auto;
+    padding-bottom: 4rem;
+  }
+
+  ul.founding-members {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  ul.founding-members li {
+    width: clamp(27ch, 20vw, 33.33%);
+    text-align: center;
+  }
+
+  .supporters-container {
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .support-tier-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .support-tier {
+    font-size: 1.3rem;
+    font-weight: 600;
+    min-width: 15ch;
+    padding-right: 3ch;
+    padding-left: 3ch;
+    text-align: right;
+  }
+
+  .supporter-names-container {
+    padding-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .supporter-names {
+    padding: 0ch 3ch 0ch 0ch;
+    margin: 0px;
+    box-sizing: border-box;
+    width: clamp(26ch, 33.33%, 100%);
+  }
+
+  @media screen and (max-width: 1023px) {
+    .support-tier {
+      font-size: 1.3rem;
+      font-weight: 600;
+      min-width: 15ch;
+      padding-right: clamp(1ch, 20%, 3ch);
+      padding-left: clamp(0ch, 30%, 3ch);
+    }
+
+    .supporter-names-container {
+      padding-left: 1.5ch;
+      box-sizing: border-box;
+      margin: auto;
+      width: 100%;
+    }
+
+    .supporter-names {
+      min-width: 50%;
+      padding-right: 1ch;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .support-tier {
+      min-width: 17ch;
+      width: 50%;
+      padding-left: 10px;
+      padding-right: 10px;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+
+    .supporter-names-container {
+      width: 50%;
+      padding-right: 10px;
+      padding-top: 0.42rem;
+      padding-left: 10px;
+      box-sizing: border-box;
+      font-size: 0.7rem;
+    }
+
+    .supporter-names {
+      width: 100%;
+    }
+  }
+</style>
+<a id="supporters">&nbsp; </a>
+<center>
+  <h3>Founding Members</h3>
+  <div class="founding-members-container">
+    <ul class="founding-members">
+      <li>Don Bowyer</li>
+      <li>Daniel Calens</li>
+      <li>Cloud 9 Internet</li>
+      <li>Sharon Doviet</li>
+      <li>Penelope S. Keene</li>
+      <li>Tom Keene</li>
+      <li>Donna Lamb</li>
+      <li>Diana Lucas</li>
+      <li>Steven Marz</li>
+      <li>Rick Myers</li>
+      <li>Ken Rhodes</li>
+      <li>Pamela Rhodes</li>
+      <li>Nathan Rigby</li>
+      <li>Chris Russell</li>
+      <li>Landon Saunders</li>
+      <li>Cathy Skievaski</li>
+      <li>Jerry Skievaski</li>
+      <li>Mark Spencer</li>
+      <li>Wendy Yang</li>
+    </ul>
+  </div>
+  <h3>Our 2022 Supporters</h3>
+</center>
+<div class="supporters-container">
+  <div class="support-tier-container">
+    <div class="support-tier">Voyager</div>
+    <div class="supporter-names-container">
+      <div class="supporter-names">Rick Myers</div>
+      <div class="supporter-names">Wendy Yang</div>
+    </div>
+  </div>
+  <div class="support-tier-container">
+    <div class="support-tier">Cassini</div>
+    <div class="supporter-names-container">
+      <div class="supporter-names">Ken Rhodes</div>
+      <div class="supporter-names">Pamela Rhodes</div>
+      <div class="supporter-names">Nathan Rigby</div>
+      <div class="supporter-names">Mark Spencer</div>
+    </div>
+  </div>
+  <div class="support-tier-container">
+    <div class="support-tier">Gemini</div>
+    <div class="supporter-names-container">
+      <div class="supporter-names">Don Bowyer</div>
+      <div class="supporter-names">Daniel Calens</div>
+      <div class="supporter-names">Sharon Doviet</div>
+      <div class="supporter-names">Penelope S. Keene</div>
+      <div class="supporter-names">Tom Keene</div>
+      <div class="supporter-names">Donna Lamb</div>
+      <div class="supporter-names">Diana Lucas</div>
+      <div class="supporter-names">Steven Marz</div>
+      <div class="supporter-names">Chris Russell</div>
+      <div class="supporter-names">Cathy Skievaski</div>
+      <div class="supporter-names">Jerry Skievaski</div>
+    </div>
+  </div>
+  <div class="support-tier-container">
+    <div class="support-tier">Members</div>
+    <div class="supporter-names-container">
+      <div class="supporter-names">Wayne Baumgartner</div>
+      <div class="supporter-names">Donna Clark</div>
+      <div class="supporter-names">Joe Cochran</div>
+      <div class="supporter-names">Marcia Freeland</div>
+      <div class="supporter-names">Byron He</div>
+      <div class="supporter-names">Lillie Mermoud</div>
+      <div class="supporter-names">Dorrie Nutt</div>
+      <div class="supporter-names">Jerry Nutt</div>
+      <div class="supporter-names">Henry Rice</div>
+      <div class="supporter-names">Grady Smith</div>
+      <div class="supporter-names">Shelley Smith</div>
+      <div class="supporter-names">Jeff Woods</div>
+    </div>
+  </div>
+  <div class="support-tier-container">
+    <div class="support-tier">Supporters</div>
+    <div class="supporter-names-container">
+      <div class="supporter-names">Ayree Coletti</div>
+      <div class="supporter-names">Aimee Fincher</div>
+      <div class="supporter-names">Buddy Little</div>
+      <div class="supporter-names">Deborah Loach</div>
+      <div class="supporter-names">George Nickson</div>
+      <div class="supporter-names">Jennifer Spontarelli</div>
+      <div class="supporter-names">She-e Wu</div>
+      <div class="supporter-names">Viola You</div>
+    </div>
+  </div>
+</div>
