@@ -1,5 +1,8 @@
+@import url('../../CSS/squarespace.css');
+@import url('../../CSS/base-HTML.css');
 body {
   color: var(--white);
+  font-family: 'futura-pt';
 }
 
 .event-schedule-container {
