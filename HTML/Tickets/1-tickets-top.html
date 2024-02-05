@@ -1,0 +1,59 @@
+<style>
+  .become-a-member-container {
+    max-width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .become-a-member-button {
+    color: var(--black);
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: double 4px transparent;
+    border-radius: 0.7rem;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    opacity: 1;
+    float: right;
+  }
+
+  .become-a-member-button.black {
+    padding: 0.7em 2em;
+    background-image: linear-gradient(-45deg, var(--red2), var(--red-2));
+    -webkit-box-shadow: -5px -5px 15px var(--black-3), 5px 5px 15px var(--black3);
+    -moz-box-shadow: -5px -5px 15px var(--black-3), 5px 5px 15px var(--black3);
+    box-shadow: -5px -5px 15px var(--black-3), 5px 5px 15px var(--black3);
+  }
+
+  .become-a-member-button.black:hover {
+    color: var(--white);
+    transition: cubic-bezier(0, 0.5, 0.5, 1) 0.3s;
+    -webkit-box-shadow: -8px -8px 18px var(--black-3), 8px 8px 18px var(--black3);
+    -moz-box-shadow: -8px -8px 18px var(--black-3), 8px 8px 18px var(--black3);
+    box-shadow: -8px -8px 18px var(--black-3), 8px 8px 18px var(--black3);
+  }
+</style>
+
+<body>
+  <div class="become-a-member-container">
+    <h4>Become a member and enjoy extra benefits</h4>
+
+    <div class="become-a-member-text">
+      <li>Invitations to Member-exclusive Stage I events</li>
+      <li>Rub shoulders with other music connoisseurs</li>
+      <li>Gain insights from composers and musicians</li>
+      <br />
+      <li>VIP Seating on all Stage II events</li>
+      <br />
+      <li>and much more</li>
+      <br />
+    </div>
+    <div class="become-a-member-button">
+      <a href="/join-the-mission#membership" class="become-a-member-button black">Find out More</a>
+    </div>
+  </div>
+</body>
